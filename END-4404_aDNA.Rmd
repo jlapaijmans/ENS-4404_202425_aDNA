@@ -9,6 +9,7 @@ output:
     logo: "img/LA_Full_colour_reversed.svg"
     widescreen: yes 
     license: by-nc-sa
+output_file: "index.html"
 ---
 
 
