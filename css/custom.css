@@ -1,11 +1,11 @@
 /* Custom Style for ioslides Presentation */
 
 /* getting the fonts correctly for gh pages */
-/*@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,400&family=Roboto:ital,wght@0,100..900;1,400&display=swap');
-*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,400&family=Roboto:ital,wght@0,100..900;1,400&display=swap');
+
 slides>slide.title-slide {
     background-image: url('../img/smilodon-7540040_1280.png');
-    background-size: 45%; /* Resize the image */
+    background-size: 35%; /* Resize the image */
     background-position: calc(100% - 10%) calc(0% + 5%); /* Position it at the top-right corner */
     background-repeat: no-repeat; /* Prevent repeating the image */
 }
