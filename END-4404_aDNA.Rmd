@@ -9,7 +9,6 @@ output:
     logo: "img/LA_Full_colour_reversed.svg"
     widescreen: yes 
     license: by-nc-sa
-output_file: "index.html"
 ---
 
 
@@ -210,7 +209,7 @@ barplot(c(10, 90), names.arg = labels, col = c("red", "darkgrey"),
 ```
 
 ```{r, out.height = 500, fig.align='center'}
-include_graphics("./img/contamination.svg")
+include_graphics("./img/contamination.png")
 ```
 
 ## "Brute force" sequencing
@@ -236,7 +235,7 @@ include_graphics("./img/alberti_petrous.png")
 
 ## Targetting the right sample 
 
-```{r, out.width = 700, fig.align='center'}
+```{r, out.width = 550, fig.align='center'}
 include_graphics("./img/outermost_layer.png")
 ```
 

@@ -6,7 +6,7 @@
    height="244.72304"
    id="svg9829"
    version="1.1"
-   inkscape:version="1.2 (1:1.2.1+202207142221+cd75a1ee6d)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    sodipodi:docname="mapdam.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -2225,14 +2225,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.1932427"
-     inkscape:cx="291.22324"
-     inkscape:cy="135.7645"
+     inkscape:zoom="2.3000372"
+     inkscape:cx="292.82135"
+     inkscape:cy="114.34598"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1043"
+     inkscape:window-height="1048"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -4090,5 +4090,27 @@
            inkscape:connector-curvature="0" />
       </g>
     </g>
+    <path
+       style="fill:none;stroke:#f70000;stroke-width:1.51834;stroke-dasharray:none;stroke-opacity:1"
+       d="m 268.30087,208.25661 h 17.65141"
+       id="path9671" />
+    <text
+       xml:space="preserve"
+       style="font-size:40.3909px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';fill:none;stroke:#f70000;stroke-width:1.74769;stroke-dasharray:none;stroke-opacity:1"
+       x="292.09219"
+       y="212.5639"
+       id="text10363"><tspan
+         sodipodi:role="line"
+         id="tspan10361"
+         x="292.09219"
+         y="212.5639"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.8745px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.74769">C → T</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.786431;stroke-dasharray:none;stroke-opacity:1"
+       id="rect12352"
+       width="64.13118"
+       height="14.240708"
+       x="262.53598"
+       y="201.6227" />
   </g>
 </svg>
