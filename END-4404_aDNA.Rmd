@@ -26,9 +26,8 @@ library(knitr)
 1. Introduction to ancient DNA
 2. Properties of ancient DNA
 3. Case studies: 
-    - Iberian Lynx
-    - Whoolly Rhino
     - Great Auk
+    - Iberian Lynx
 
 ## Do you think ancient DNA is important? {.columns-2}
 
@@ -165,34 +164,34 @@ include_graphics("./img/dalen_science_timeline.jpg")
 
 # Fragmentation
 
-## DNA fragmentation
+## DNA fragmentation {.flexbox .vcenter}
+
+
+```{r, out.width = 750, fig.align='center'}
+include_graphics("./img/readlength.svg")
+```
 
 ***→ Gets worse with time and poor preservation conditions***
 
-```{r, out.width = 700, fig.align='center'}
-include_graphics("./img/readlength.png")
-```
+## DNA fragmentation: PCR {.flexbox .vcenter}
 
-
-## DNA fragmentation: PCR
-
-```{r, out.width = 650, fig.align='center'}
+```{r, out.width = 800, fig.align='center'}
 include_graphics("./img/pcr_issue.svg")
 ```
 
-## DNA fragmentation: PCR
+## DNA fragmentation: PCR {.flexbox .vcenter}
 
 ```{r, out.width = 800, fig.align='center'}
 include_graphics("./img/readlength_pcr.svg")
 ```
 
-## DNA fragmentation: NGS
+## DNA fragmentation: NGS {.flexbox .vcenter}
 
 ```{r, out.width = 800, fig.align='center'}
 include_graphics("./img/library_molecule.svg")
 ```
 
-## DNA fragmentation: NGS
+## DNA fragmentation: NGS {.flexbox .vcenter}
 
 ```{r, out.width = 800, fig.align='center'}
 include_graphics("./img/readlength_ngs.svg")
@@ -313,9 +312,69 @@ include_graphics("./img/consensify2.svg")
 
 # Applications
 
-## Applications
+## Applications {.flex-cols}
 
-pcitures of animals
+```{r, out.width = 300, fig.align='center'}
+include_graphics("./img/great_auk.jpg")
+```
+
+
+
+```{r, out.width = 400, fig.align='center'}
+include_graphics("./img/Iberian_Lynx_front.jpg")
+```
+
+
+## Great Auk (*Pinguinus impennis*) <font size="6">(not a penguin)</font> 
+
+```{r, out.width = 700, fig.align='center'}
+include_graphics("./img/auk_distro.jpg")
+```
+
+<P align="right"><font size="4">*Thomas et al. 2019, eLife*</font></P>
+
+## Cross-species hybridisation capture {.columns-2}
+
+```{r, out.width = 400, fig.align='center'}
+include_graphics("./img/killdeer.jpg")
+```
+
+<div style="height: 80px;"></div>
+```{r, out.width = 300, fig.align='center'}
+include_graphics("./img/Mitochondrial_DNA.jpg")
+```
+
+
+
+## Extinction process {.flexbox .vcenter}
+
+```{r, out.width = 600, fig.align='center'}
+include_graphics("./img/pop_decline.svg")
+```
+
+
+## No evidence for long-term decline {.flexbox .vcenter}
+
+```{r, out.width = "100%", fig.align='center'}
+include_graphics("./img/auk_network.jpg")
+```
+
+## No evidence for long-term decline {.white-slide}
+
+```{r, out.width = 470, fig.align='center'}
+include_graphics("./img/auk_tempnet.jpg")
+```
+
+
+## Understanding extinction drivers
+
+
+```{r, out.width = "100%", out.height=500}
+include_graphics("./pdf/Thomas et al. - 2019 - Demographic reconstruction from ancient DNA supports rapid extinction of the great auk.pdf")
+```
+
+
+
 
 
 ## Iberian lynx (*Lynx pardinus*) {.columns-2}
@@ -362,7 +421,7 @@ include_graphics("./img/eurasian.svg")
 
 ## Past admixture with Eurasian lynx
 
-```{r, out.width = 800, fig.align='center'}
+```{r, out.width = 720, fig.align='center'}
 include_graphics("./img/admix.png")
 ```
 
@@ -374,52 +433,12 @@ include_graphics("./pdf/Lucena-Perez et al. - 2024 - Recent increase in species-
 ```
 
 
-## Great Auk (*Pinguinus impennis*) <font size="6">(not a penguin)</font> 
-
-```{r, out.width = 700, fig.align='center'}
-include_graphics("./img/auk_distro.jpg")
-```
-
-<P align="right"><font size="4">*Thomas et al. 2019, eLife*</font></P>
-
-
-
-## Extinction process {.flexbox .vcenter}
-
-```{r, out.width = 500, fig.align='center'}
-include_graphics("./img/pop_decline.svg")
-```
-
-
-## No evidence for long-term decline {.flexbox .vcenter}
-
-```{r, out.width = "100%", fig.align='center'}
-include_graphics("./img/auk_network.jpg")
-```
-
-## No evidence for long-term decline {.white-slide}
-
-```{r, out.width = 500, fig.align='center'}
-include_graphics("./img/auk_tempnet.jpg")
-```
-
-
-## Understanding extinction drivers
-
-
-```{r, out.width = "100%", out.height=500}
-include_graphics("./pdf/Thomas et al. - 2019 - Demographic reconstruction from ancient DNA supports rapid extinction of the great auk.pdf")
-```
-
-
-
 
 ## Conclusion: <br> <font size="40">*Is ancient DNA important for conservation?*</font> {.columns-2}  
   
-
+- Investigation of "failed conservation"
 - Tracking populations through time
 - Measuring past genetic diversity
-- Investigation of "failed conservation"
 
 
 <div style="height: 170px;"></div>
