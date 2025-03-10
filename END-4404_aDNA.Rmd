@@ -25,14 +25,21 @@ library(knitr)
 
 1. Introduction to ancient DNA
 2. Properties of ancient DNA
-2. Analysis of ancient DNA
 3. Case studies: 
-    - Lynx
+    - Iberian Lynx
     - Whoolly Rhino
     - Great Auk
 
-## Why is ancient DNA important?
+## Do you think ancient DNA is important? {.columns-2}
 
+
+```{r, out.height=490, fig.align='center'}
+include_graphics("./img/Cave_Bear_portrait.JPG")
+```
+
+```{r, out.height=490, fig.align='center'}
+include_graphics("./img/sabretooth_portrait.jpg")
+```
 
 
 ## Tracking populations through time
@@ -45,7 +52,7 @@ include_graphics("./img/1-onespeciesma_edit1.png")
 <center><font size="4">*Credit: Claudiu Pantiru/Max Planck Institute for the Science of Human History*</font></center>
 
 
-## Young research field (40 years) {.flex-col}  
+## Introduction to the field {.flex-col}  
 
 ```{r, out.width = "300"}
 include_graphics("./img/Quagga_photo.jpg")
@@ -57,7 +64,7 @@ include_graphics("./pdf/Higuchi_1984_Quagga.pdf")
 ```
 
 
-## ...but highly prolific
+## Young but highly prolific
 
 ```{r, out.height=470, fig.align='center'}
 include_graphics("./img/svante_paabo.jpg")
@@ -188,7 +195,7 @@ include_graphics("./img/library_molecule.svg")
 ## DNA fragmentation: NGS
 
 ```{r, out.width = 800, fig.align='center'}
-include_graphics("./img/readlength.png")
+include_graphics("./img/readlength_ngs.svg")
 ```
 
 
@@ -239,11 +246,35 @@ include_graphics("./img/alberti_petrous.png")
 include_graphics("./img/outermost_layer.png")
 ```
 
-## Hybridisation capture
+## Pre-treatment
 
-```{r, out.width = 650, fig.align='center'}
+- bleach, phosphate or pre-digestion
+
+```{r, out.width = 550, fig.align='center'}
+include_graphics("./img/bleach.png")
+```
+
+
+## Hybridisation capture {.flex-col}
+
+```{r, out.width = 450, fig.align='center'}
+include_graphics("./img/capture_bead.png")
+```
+
+```{r, out.width = 450, fig.align='center'}
+include_graphics("./img/capture_slide.png")
+```
+
+
+## Hybridisation capture workflow {.flex-col}
+
+```{r, out.width = 540, fig.align='center'}
 include_graphics("./img/capture_workflow.svg")
 ```
+
+- Increased endogenous content
+- Capture of specific regions 
+- Cross-species capture
 
 
 # DNA degradation
@@ -282,25 +313,122 @@ include_graphics("./img/consensify2.svg")
 
 # Applications
 
+## Applications
 
-## Lynx
-
-"Natural genetic rescue"
-
+pcitures of animals
 
 
-## Whooly rhino
+## Iberian lynx (*Lynx pardinus*) {.columns-2}
 
-"Extinction processes"
-
-## Great Auk
-
-- "Conservation genetics"
-
-## Conclusion {.thank-you-slide}
+```{r, out.width = 400, fig.align='center'}
+include_graphics("./img/Lince.jpg")
+```
 
 
+```{r, out.width = "95%", fig.align='center'}
+include_graphics("./img/iberian_lynx_map.svg")
+```
+
+## Iberian lynx (*Lynx pardinus*) {.columns-2}
+
+```{r, out.width = 400, fig.align='center'}
+include_graphics("./img/Lince.jpg")
+```
 
 
+```{r, out.width = 400, fig.align='center'}
+include_graphics("./img/pardinus_het.svg")
+```
+
+## Ancient Iberian lynx
+
+```{r, out.width = 750, fig.align='center'}
+include_graphics("./img/iberian_lynx_map_samples.svg")
+```
+
+## Even lower heterozygosity in the past
+
+
+```{r, out.width = 750, fig.align='center'}
+include_graphics("./img/iberian_lynx_map_samples_div.svg")
+```
+
+## Eurasian lynx (*Lynx lynx*)
+
+```{r, out.width = 800, fig.align='center'}
+include_graphics("./img/eurasian.svg")
+```
+
+
+## Past admixture with Eurasian lynx
+
+```{r, out.width = 800, fig.align='center'}
+include_graphics("./img/admix.png")
+```
+
+
+## Natural genetic rescue? 
+
+```{r, out.width = "100%", out.height=500}
+include_graphics("./pdf/Lucena-Perez et al. - 2024 - Recent increase in species-wide diversity after in.pdf")
+```
+
+
+## Great Auk (*Pinguinus impennis*) <font size="6">(not a penguin)</font> 
+
+```{r, out.width = 700, fig.align='center'}
+include_graphics("./img/auk_distro.jpg")
+```
+
+<P align="right"><font size="4">*Thomas et al. 2019, eLife*</font></P>
+
+
+
+## Extinction process {.flexbox .vcenter}
+
+```{r, out.width = 500, fig.align='center'}
+include_graphics("./img/pop_decline.svg")
+```
+
+
+## No evidence for long-term decline {.flexbox .vcenter}
+
+```{r, out.width = "100%", fig.align='center'}
+include_graphics("./img/auk_network.jpg")
+```
+
+## No evidence for long-term decline {.white-slide}
+
+```{r, out.width = 500, fig.align='center'}
+include_graphics("./img/auk_tempnet.jpg")
+```
+
+
+## Understanding extinction drivers
+
+
+```{r, out.width = "100%", out.height=500}
+include_graphics("./pdf/Thomas et al. - 2019 - Demographic reconstruction from ancient DNA supports rapid extinction of the great auk.pdf")
+```
+
+
+
+
+## Conclusion: <br> <font size="40">*Is ancient DNA important for conservation?*</font> {.columns-2}  
+  
+
+- Tracking populations through time
+- Measuring past genetic diversity
+- Investigation of "failed conservation"
+
+
+<div style="height: 170px;"></div>
+<p style="color: orange;">**Next time: historical DNA with Axel**</p>
+
+```{r, out.width = 500, fig.align='right'}
+include_graphics("./img/bones.png")
+```
+
+ 
 
 
