@@ -343,6 +343,15 @@ include_graphics("./img/auk_distro.jpg")
 
 <P align="right"><font size="4">*Thomas et al. 2019, eLife*</font></P>
 
+
+## Extinction process {.flexbox .vcenter}
+
+```{r, out.width = 600, fig.align='center'}
+include_graphics("./img/pop_decline.svg")
+```
+
+
+
 ## Cross-species hybridisation capture {.columns-2}
 
 ```{r, out.width = 400, fig.align='center'}
@@ -354,13 +363,6 @@ include_graphics("./img/killdeer.jpg")
 include_graphics("./img/Mitochondrial_DNA.jpg")
 ```
 
-
-
-## Extinction process {.flexbox .vcenter}
-
-```{r, out.width = 600, fig.align='center'}
-include_graphics("./img/pop_decline.svg")
-```
 
 
 ## No evidence for long-term decline {.flexbox .vcenter}
