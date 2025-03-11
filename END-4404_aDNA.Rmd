@@ -235,7 +235,7 @@ include_graphics("./img/bruteforce.svg")
 
 
 ```{r, out.width = 550, fig.align='center'}
-include_graphics("./img/alberti_petrous_skull.svg")
+include_graphics("./img/alberti_petrous_skull.png")
 ```
 
 
