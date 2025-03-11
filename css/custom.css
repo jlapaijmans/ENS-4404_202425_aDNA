@@ -16,6 +16,12 @@ slides>slide.title-slide h1 , h2{
 }
 
 
+p.caption {
+  font-size: 0.6em !important
+}
+
+
+
 /* this is the grey bar that the title logo sits in*/
 aside.gdbar {
   height: 100px;
@@ -120,9 +126,5 @@ color: darkslategray;
   padding-bottom: 60px;
 }
 
-
-p.caption {
-  font-size: 0.6em !important
-}
 
 
