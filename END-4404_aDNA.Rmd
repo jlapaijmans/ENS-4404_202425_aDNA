@@ -1,5 +1,5 @@
 ---
-title: "Ancient DNA I: Pleistocene <br> & Holocene DNA"
+title: "Ancient DNA I: Fossil DNA"
 subtitle: "ENS-4404: Genetics and the Conservation"
 author: "Dr. Johanna Paijmans"
 date: "email: j.paijmans@bangor.ac.uk"
