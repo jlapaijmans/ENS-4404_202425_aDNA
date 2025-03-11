@@ -21,13 +21,19 @@ library(knitr)
 
 
 
-## Ancient DNA and conservation
+## Ancient DNA and conservation {.columns-2}
 
 1. Introduction to ancient DNA
 2. Properties of ancient DNA
 3. Case studies: 
     - Great Auk
     - Iberian Lynx
+
+
+```{r, out.width = 400, fig.align='right'}
+include_graphics("./img/sina_lab2.jpg")
+```
+
 
 ## Do you think ancient DNA is important? {.columns-2}
 
@@ -51,7 +57,7 @@ include_graphics("./img/1-onespeciesma_edit1.png")
 <center><font size="4">*Credit: Claudiu Pantiru/Max Planck Institute for the Science of Human History*</font></center>
 
 
-## Introduction to the field {.flex-col}  
+## Introduction to the field {.flex-cols}  
 
 ```{r, out.width = "300"}
 include_graphics("./img/Quagga_photo.jpg")
@@ -78,7 +84,7 @@ include_graphics("./img/svante_paabo.jpg")
 include_graphics("./pdf/Paabo_1985_mummy.pdf")
 ```
 
-## Sorry, no dinosaurs... {.flex-col}
+## Sorry, no dinosaurs... {.flex-cols}
 
 ```{r, out.width = 300, fig.align='center'}
 include_graphics("./img/riding_dino.png")
@@ -89,7 +95,7 @@ include_graphics("./pdf/Woodward_1994_dino.pdf")
 ```
 
 
-## First Pleistocene DNA in 1994 {.flex-col}
+## First Pleistocene DNA in 1994 {.flex-cols}
 
 ```{r, out.width = 300, fig.align='center'}
 include_graphics("./img/woolly-mammoth-2722882.png")
@@ -100,7 +106,7 @@ include_graphics("./img/woolly-mammoth-2722882.png")
 include_graphics("./pdf/Hagelberg_1994_mammoth.pdf")
 ```
 
-## First Pleistocene genome in 2010 {.flex-col}
+## First Pleistocene genome in 2010 {.flex-cols}
 
 ```{r, out.width = 300, fig.align='center'}
 include_graphics("./img/neanderthal.jpg")
@@ -111,7 +117,7 @@ include_graphics("./img/neanderthal.jpg")
 include_graphics("./pdf/Green et al. - 2010 - A Draft Sequence of the Neandertal Genome.pdf")
 ```
 
-## Where can you get it {.flex-col .vcenter}
+## Where can you get it {.flex-cols .vcenter}
 
 - bones
 - teeth
@@ -200,7 +206,7 @@ include_graphics("./img/readlength_ngs.svg")
 
 # Low quantity / high contamination
 
-## Endogenous vs exogenous DNA {.flex-col}
+## Endogenous vs exogenous DNA {.flex-cols}
 
 ```{r, out.width="75%", fig.align='center', fig.width=4, fig.height=4}
 par(bg = "transparent", mar=c(2, 4, 1, 2))
@@ -225,7 +231,7 @@ include_graphics("./img/bruteforce.svg")
 ```
 
 
-## Targetting the right sample  {.flex-col}
+## Targetting the right sample  {.flex-cols}
 
 
 ```{r, out.width = 550, fig.align='center'}
@@ -234,9 +240,10 @@ include_graphics("./img/alberti_petrous_skull.svg")
 
 
 
-```{r, out.width = 450, fig.align='center'}
+```{r, out.width = 450, fig.align='center', fig.cap="*Alberti et al. 2019, Mol Ecol Resources*"}
 include_graphics("./img/alberti_petrous.png")
 ```
+
 
 
 ## Targetting the right sample 
@@ -245,16 +252,21 @@ include_graphics("./img/alberti_petrous.png")
 include_graphics("./img/outermost_layer.png")
 ```
 
+<P align="right"><font size="4">*Alberti et al. 2018, Mol Ecol Resources*</font></P>
+
+
 ## Pre-treatment
 
 - bleach, phosphate or pre-digestion
 
-```{r, out.width = 550, fig.align='center'}
+```{r, out.width = 500, fig.align='center'}
 include_graphics("./img/bleach.png")
 ```
 
+<P align="right"><font size="4">*Korlević & Meyer 2019, Ancient DNA: Methods and Protocols*</font></P>
 
-## Hybridisation capture {.flex-col}
+
+## Hybridisation capture {.flex-cols}
 
 ```{r, out.width = 450, fig.align='center'}
 include_graphics("./img/capture_bead.png")
@@ -265,7 +277,7 @@ include_graphics("./img/capture_slide.png")
 ```
 
 
-## Hybridisation capture workflow {.flex-col}
+## Hybridisation capture workflow {.flex-cols}
 
 ```{r, out.width = 540, fig.align='center'}
 include_graphics("./img/capture_workflow.svg")
@@ -298,29 +310,27 @@ include_graphics("./img/mapdam.svg")
 ## Nucleotide misincorporations {.white-slide}
 
 
-```{r, out.height = 520, fig.align='center'}
+```{r, out.height = 520, fig.align='center', fig.cap="*Barlow et al. 2020, Genes*"}
 include_graphics("./img/consensify1.svg")
 ```
 
 ## Nucleotide misincorporations {.white-slide}
 
 
-```{r, out.height = 520, fig.align='center'}
+```{r, out.height = 520, fig.align='center', fig.cap="*Barlow et al. 2020, Genes*"}
 include_graphics("./img/consensify2.svg")
 ```
 
 
 # Applications
 
-## Applications {.flex-cols}
+## Applications {.columns-2}
 
 ```{r, out.width = 300, fig.align='center'}
 include_graphics("./img/great_auk.jpg")
 ```
 
-
-
-```{r, out.width = 400, fig.align='center'}
+```{r, out.width = 350, fig.align='center'}
 include_graphics("./img/Iberian_Lynx_front.jpg")
 ```
 
@@ -448,6 +458,5 @@ include_graphics("./pdf/Lucena-Perez et al. - 2024 - Recent increase in species-
 include_graphics("./img/bones.png")
 ```
 
- 
 
 
